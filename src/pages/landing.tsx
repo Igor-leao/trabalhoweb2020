@@ -50,7 +50,7 @@ export default function Landing(){
     if(!popular){
         return <p>Carregando....</p>
     }
-
+    document.title = 'Portal de filmes';
       return(
         <body id='root'>
               
