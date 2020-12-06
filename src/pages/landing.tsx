@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import api from '../services/api';
 import { FiSearch } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import './landing.css';
 
 import logo from '../imgs/logo.png'
 import noticia1 from '../imgs/noticia1.jpg';
